@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Aravindhan id</title>
+  <title>Aravindhan ID</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Use Poppins font for a modern, clean look -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -14,12 +13,11 @@
       height: 100vh;
       overflow: hidden;
       font-family: 'Poppins', sans-serif;
-      color: #fff;
+      color: #ffffff;
       display: flex;
       justify-content: center;
       align-items: center;
       position: relative;
-      text-align: center;
     }
 
     .bg-video video {
@@ -34,10 +32,9 @@
     }
 
     .logo {
-  width: 80px;      /* adjust size as needed */
-  margin-bottom: 20px;
-}
-
+      width: 80px; /* adjust size as needed */
+      margin-bottom: 20px;
+    }
 
     .card {
       background: rgba(255, 255, 255, 0.05);
@@ -46,30 +43,39 @@
       padding: 40px 30px;
       width: 320px;
       box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+      text-align: center; /* Keep logo & name centered */
     }
 
     header h4 {
-      margin: 0 0 15px 0;
+      margin: 0 0 20px 0;
       font-weight: 600;
-      font-size: 22px;
+      font-size: 40px;
       letter-spacing: 1px;
     }
 
-    p {
+    .details {
+      text-align: left; /* Align details left for professional look */
+      margin-top: 10px;
+    }
+
+    .details p {
       margin: 8px 0;
       font-size: 14px;
       line-height: 1.5;
     }
 
-    p strong {
-      color: #ffdd57; /* Subtle highlight color */
+    .details p strong {
+      display: inline-block;
+      width: 90px; /* Consistent label width */
+      color: #ffffff;
       font-weight: 500;
     }
 
     footer {
       margin-top: 25px;
-      font-size: 12px;
-      color: #ddd;
+      font-size: 10px;
+      color: #ffffff;
+      text-align: center;
     }
   </style>
 </head>
@@ -85,12 +91,14 @@
   <!-- Employee ID Card -->
   <div class="card">
     <img src="logo.png" alt="Company Logo" class="logo">
-    <header><h4>ARAVINDHAN S</h4></header>
-    <p><strong>Role : </strong> AI & ML ENGINEER</p>
-    <p><strong>Email : </strong> aravindhan@aifuturix.in</p>
-    <p><strong>Phone : </strong> +91 6369942117</p>
-    <p><strong>Blood group : </strong> B+ve</p>
-    <p><strong>Location : </strong> Coimbatore, Tamil Nadu</p>
+    <header><h1>ARAVINDHAN S</h1></header>
+    <div class="details">
+      <p><strong>Role</strong> : AI & ML ENGINEER</p>
+      <p><strong>Email</strong> : aravindhan@aifuturix.in</p>
+      <p><strong>Phone</strong> : +91 6369942117</p>
+      <p><strong>Blood Group</strong> : B+ve</p>
+      <p><strong>Location</strong> : Coimbatore, Tamilnadu</p>
+    </div>
     <footer>AI Futurix Employee</footer>
   </div>
 </body>
